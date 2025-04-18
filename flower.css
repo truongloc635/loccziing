@@ -1,0 +1,356 @@
+/*Header*/
+#loc
+{
+	width:1150px;
+	height:200px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:0px;
+}
+#logo
+{
+	width:1150px;
+	height:150px;
+}	
+#mlogo
+{
+	height:140px;
+	width:130px;
+	margin:5px auto 5px auto;
+	background-image:url('images/logo.png');
+}	
+#slogan
+{
+	width:1150px;
+	height:50px;
+}	
+#mslogan
+{
+	width:250px;
+	height:40px;
+	margin:5px auto 5px auto;
+	background-image:url('images/slogan.png');
+	background-repeat:no-repeat;
+}	
+#nav
+{
+	width:1150px;
+	height:50px;
+}	
+#main-menu
+{
+	padding-left:10px;
+	list-style:none;
+	float:left;
+	display:flex;
+}	
+a
+{
+	color:gray !important;
+	text-decoration:none !important; 
+	font-size:18px;
+	padding:10px 15px 10px 15px;
+}	
+#search
+{
+	height:50px;
+	width:250px;
+	margin-right:16px;
+	float:right !important;
+	display:flex;
+}	
+#form
+{
+	margin-left:0px;
+	width:200px;
+	height:40px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+input
+{
+	width:100%;
+	height:100%;
+	border:1px solid #dfd7d7;
+	border-radius:5px;
+}	
+#ssearch
+{
+	width:40px;
+	height:40px;
+	margin-right:0px;
+	margin-left:10px;
+	margin-top:5px;
+	margin-bottom:5px;
+	background-color:#dfd7d7;
+	float:right;
+	border-radius:10px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}	
+button.btn
+{
+	border:none;
+	background-color:#dfd7d7;
+	color:red;
+}	
+.active a
+{
+	background-color:#62db62!important;
+	color:white;
+	padding-top:20px;
+	padding-bottom:20px;
+}	
+#main-menu li a:hover
+{
+	background-color:#ff5722;
+	color:white !important;
+	padding-top:20px;
+	padding-bottom:20px;
+}	
+/*welcome*/
+#welcome
+{
+	width:100%;
+	height:250px;
+	background-color:#db9ea9;
+}	
+#wtieude
+{
+	max-width:350px;
+	height:55px;
+	margin:0px auto;
+	background-image:url(images/welcometitle.png);
+	background-repeat:no-repeat;
+}	
+#chu
+{
+	width:640px;
+	height:70px;
+	margin:0px auto;
+	align-items:center;
+}
+#chu p
+{
+	padding-top:10px;
+	text-align:center;
+	color:white;
+	font-style:italic;
+}	
+#more
+{
+	width:220px;
+	height:40px;
+	margin:30px auto;
+	background-color:white;
+	border:1px solid gray;
+	border-radius:5px;
+}	
+#more img
+{
+	margin-top:7px;
+	margin-bottom:3px;
+	margin-left:10px;
+	margin-right:10px;
+	height:30px;
+	width:200px;
+}	
+#sales
+{
+	width:100%;
+	height:500px;
+	background-color:#db9ea9;
+	position:relative;
+}	
+#sales1
+{
+	position:absolute;
+	width:280px;
+	height:430px;
+	background-image:url('images/banner_sale1.png');
+	left:150px;
+	top:20px;
+	right:50px;
+	bottom:50px;
+	border:none;
+}	
+#sales2
+{
+	position:absolute;
+	width:450px;
+	height:430px;
+	top:20px;
+	right:80px;
+	background-color:red;
+	background-image:url('images/banner_sale2.png');
+	border:none;
+}	
+#newflower
+{
+	width:100%;
+	height:200px;
+	background-color:#f7ecee;
+}
+#buy
+{
+	width:100%;
+	height:320px;
+	background-color:#f7ecee;
+	margin-bottom:20px;
+	display:flex;
+}	
+#buy1
+{
+	border:1px dotted; 
+	border-radius:10px; 
+	box-shadow: 10px 10px 10px violet;
+	height:320px;
+	width:25%;
+}
+#buy img
+{
+	margin:0 auto;
+	width:100%;
+	height:100%;
+}	
+#buy .price
+{
+	margin-bottom:0px;
+	text-align:center;
+	color:#FF5722;
+}	
+#buy .name 
+{
+	font-family:inherit;
+	background-color:white;
+	height:35px;
+	width:90%;
+	margin-top:20px;
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+	border-color:white;
+	border-radius:5px;
+	font-size:30px;
+	text-align:center;
+}	
+#buy .gift 
+{
+	width:40px;
+	height:30px;
+	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+	border-radius:5px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#buy button.btn
+{
+	border:none;
+	background-color:white;
+	color:black;
+	font-size:25px;
+}	
+#buy2
+{
+	border:1px dotted; 
+	border-radius:10px; 
+	box-shadow: 10px 10px 10px violet;
+	height:320px;
+	width:25%;
+}	
+#buy3
+{
+	border:1px dotted; 
+	border-radius:10px; 
+	box-shadow: 10px 10px 10px violet;
+	height:320px;
+	width:25%;
+}
+#buy4
+{
+	border:1px dotted; 
+	border-radius:10px; 
+	box-shadow: 10px 10px 10px violet;
+	height:320px;
+	width:25%;
+}
+/*Footer*/
+#footer
+{
+	width:100%;
+	height:200px;
+	background-color:#8eca2d;
+	position:relative
+}	
+#shopname
+{
+	position:absolute;
+	width:300px;
+	height:50px;
+	top:2px;
+	left:100px;
+}	
+#location
+{
+	position:absolute;
+	width:50px;
+	height:60px;
+	left:100px;
+	top:53px;
+}
+#address
+{
+	position:absolute;
+	width:300px;
+	height:60px;
+	left:155px;
+	top:50px;
+	font-family:arial;
+	color:#4f4848;
+}
+#connect
+{
+	position:absolute;
+	right:250px;
+	width:300px;
+	height:50px;
+	top:2px;
+}	
+#lienhe
+{
+	position:absolute;
+	right:300px;
+	top:45px;
+}	
+#facebook
+{
+	position:absolute;
+	right:505px;
+	top:80px;
+}
+#tw
+{
+	position:absolute;
+	right:505px;
+	top:125px;
+}	
+/*slide*/
+.carousel-indicators [data-bs-target] 
+{
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50%;
+    background-color: #999;
+    margin: 0 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+.carousel-indicators .active 
+{
+    background-color: white;
+}
